@@ -287,23 +287,23 @@ export default class extends Component {
         <View
           ref={(c) => {
             this.txtPulling = c;
-          }}
+          }}s
         >
-          <Text style={styles.indicatorText}>{PageTexts.PULLING}</Text>
+          <Text style={styles.indicatorText}>{'PageTexts.PULLING'}</Text>
         </View>
         <View
           ref={(c) => {
             this.txtPullok = c;
           }}
         >
-          <Text style={styles.indicatorText}>{PageTexts.PULL_OK}</Text>
+          <Text style={styles.indicatorText}>{'PageTexts.PULL_OK'}</Text>
         </View>
         <View
           ref={(c) => {
             this.txtPullrelease = c;
           }}
         >
-          <Text style={styles.indicatorText}>{PageTexts.PULL_RELEASE}</Text>
+          <Text style={styles.indicatorText}>{'PageTexts.PULL_RELEASE'}</Text>
         </View>
       </View>
     );
